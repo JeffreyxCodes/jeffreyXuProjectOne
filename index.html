@@ -17,6 +17,7 @@
         <div class="wrapper">
             <h3>DRIVE SOLO</h3>
             <nav class="clearfix">
+                <img src="./images/hamburger-menu.svg" alt="">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
@@ -26,7 +27,7 @@
             </nav>
             <div class="logo-container">
                 <h1>DRIVE</h1>
-                <h1>SOLO</h1>
+                <h1>SOL<span>O</span></h1>
                 <h2>curated finest selection</h2>
             </div>
             <div class="social-media">
@@ -49,8 +50,7 @@
     <section class="articles wrapper">
         <h2>NEWS ARTICLES</h2>
         <div class="clearfix">
-            <div class="third"><img src="./images/image-2_2.jpg"
-                    alt="Back side view of red sports car with wings.">
+            <div class="third"><img src="./images/image-2_2.jpg" alt="Back side view of red sports car with wings.">
             </div>
             <div class="third"><img src="./images/image-3.jpg" alt="Side hood view of red sports car.">
             </div>
@@ -60,7 +60,7 @@
     </section>
 
     <section class="highlight wrapper clearfix">
-        <div><img src="./images/image-6.jpg" alt="SIlver sports car with yellow strip."></div>
+        <div><img src="./images/image-6.jpg" alt="Silver sports car with yellow strip."></div>
         <div>
             <h2>THIS WEEKS HIGHLIGHT</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend.
@@ -74,13 +74,13 @@
                 sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lorem ipsum dolor sit amet,
                 consectetur
                 adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend.</p>
-            <a href="#">READ MORE</a>
+            <a href="#" class="big">READ MORE</a>
         </div>
     </section>
 
     <section class="checker">
         <div class="clearfix">
-            <div class="right">
+            <div class="right full-bleed-container">
                 <img src="./images/image-2.jpg" alt="White sports car with blue strips.">
             </div>
             <div class="left">
@@ -100,9 +100,8 @@
             </div>
         </div>
         <div class="clearfix">
-            <div class="left">
-                <img src="./images/image-2-copy.jpg"
-                    alt="White sports car with backdrop of other sports cars.">
+            <div class="left full-bleed-container">
+                <img src="./images/image-2-copy.jpg" alt="White sports car with backdrop of other sports cars.">
             </div>
             <div class="right">
                 <div class="vertical-center">
@@ -133,7 +132,8 @@
             <div class="topic-icon-container third">
                 <a href="#" aria-label="Go to the jobs page">
                     <i class="fas fa-briefcase" aria-hidden="true"></i>
-                    <h3>JOBS</h3>
+                    <h3 class="jobs">JOBS</h3>
+                    <h3 class="community">COMMUNITY</h3>
                 </a>
             </div>
             <div class="topic-icon-container third">
@@ -151,29 +151,32 @@
                 <form>
                     <h3>STAY UPDATED</h3>
                     <p>Subscribe to our newsletter to stay updated.</p>
+                    <div></div>
                     <label for="email" class="visually-hidden">Email address</label>
                     <input type="email" id="email" name="email" placeholder="example@email.com">
 
                     <button type="submit">SUBSCRIBE</button>
                 </form>
             </div>
-            <div class="contact">
-                <div>
-                    <h3>CONTACT</h3>
-                    <p>info@email.com | 123 - 456 - 7890</p>
-                    <p>123 some road, Toronto, ON</p>
-                    <p>A5A 5A5, Canada</p>
+            <div>
+                <div class="contact footer-group">
+                    <div>
+                        <h3>CONTACT</h3>
+                        <p>info@email.com | 123 - 456 - 7890</p>
+                        <p>123 some road, Toronto, ON</p>
+                        <p>A5A 5A5, Canada</p>
+                    </div>
                 </div>
-            </div>
-            <div class="footer-nav">
-                <nav>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </nav>
+                <div class="footer-nav footer-group">
+                    <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
         <p class="copyright">Copyright © 2019 HackerYou</p>
